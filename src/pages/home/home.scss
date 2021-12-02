@@ -1,0 +1,128 @@
+.home {
+  width: 100%;
+  .home-conten {
+    width: 98%;
+    margin: auto;
+    margin-top: 20px;
+    img {
+      width: 330px;
+      height: 200px;
+    }
+  }
+  .content {
+    width: 98%;
+    margin: auto;
+
+    .content-position {
+      width: 450px;
+      height: 850px;
+      background-image: url(http://marriottgrandcaymanbeachhouse.com/resources/img/vertical1.jpg);
+      .content-img1 {
+        padding-top: 120px;
+        h4 {
+          color: white;
+        }
+        h3 {
+          color: white;
+          font-size: 30px;
+        }
+        button {
+          transform: transform 0, 5s;
+          color: rgb(47, 212, 190);
+
+          .button :hover {
+            color: red;
+          }
+        }
+      }
+    }
+    .content-position1 {
+      background-image: url(http://marriottgrandcaymanbeachhouse.com/resources/img/anchor-den-wide.jpg);
+      width: 853px;
+      height: 430px;
+      margin-left: 470px;
+      margin-top: -250px;
+      .content-img2 {
+        padding-top: 120px;
+        margin-left: -350px;
+        h4 {
+          color: white;
+        }
+        h3 {
+          color: white;
+          font-size: 30px;
+        }
+        button {
+          transform: transform 0, 5s;
+          color: rgb(47, 212, 190);
+          :hover {
+            color: red;
+          }
+        }
+      }
+    }
+    .content-position2 {
+      background-image: url(http://marriottgrandcaymanbeachhouse.com/resources/img/energy-meetings-grid.jpg);
+      width: 853px;
+      height: 400px;
+      margin-left: 470px;
+      margin-top: 20px;
+      .content-img3 {
+        padding-top: 120px;
+        margin-left: -350px;
+        h4 {
+          color: white;
+        }
+        h3 {
+          color: white;
+          font-size: 30px;
+        }
+        button {
+          transform: transform 0, 5s;
+          color: rgb(47, 212, 190);
+          :hover {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  .content-card {
+    width: 98%;
+    margin: auto;
+    padding-top: 20px;
+    .content-center {
+      b {
+        font-size: 30px;
+      }
+    }
+    .content-center1 {
+      flex-wrap: wrap;
+      flex: start;
+      display: flex;
+      width: 98%;
+      margin: auto;
+      .Card-container {
+        padding: 5px;
+        flex-direction: column;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 400px;
+        min-width: 250px;
+        margin: 10px auto;
+        max-width: 350px;
+        box-shadow: 3px 3px 10px rgb(184, 183, 183);
+        background-color: #fff;
+        display: flex;
+       border: rgb(83, 83, 83) solid 2px;
+        .image {
+          width: 300px !important;
+          height: 160px !important;
+          border-radius: 5px;
+        box-shadow: 1px 1px 2px rgb(184, 183, 183);
+
+        }
+      }
+    }
+  }
+}

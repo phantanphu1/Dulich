@@ -1,0 +1,24 @@
+.Card-container{
+    display: flex;
+    height: 400px;
+    min-width: 250px;
+    max-width: 250px;
+    flex-direction: column;
+    cursor: pointer;
+    
+    .image{
+
+        width: 200px !important;
+        height:160px !important;
+        
+    }
+    .name{
+        margin-top: 10px;
+    }
+    .price{
+        margin-top: -5px;
+        color: rgb(47, 212, 190);
+    }
+    
+    
+}
